@@ -1,0 +1,34 @@
+h1{ color:rgb(223, 21, 21)}
+.celcius{
+    text-align: center;
+    background-color: rgb(18, 225, 246);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 56px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.Kelvin{
+    text-align: center;
+    background-color: rgb(255, 172, 28);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.Fahrenheit{
+    text-align: center;
+    background-color: rgb(85, 85, 255);
+    color: black;
+    border: none;
+    height: 30px;
+    width: 79px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+}
