@@ -9,6 +9,14 @@ h1{ color:rgb(223, 21, 21)}
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
+    transform: background-color 1s
+    color 1s;
+}
+.celcius:hover{
+    opacity: 0.8;
+}
+.celcius:active{
+    opacity: 0.5;
 }
 .Kelvin{
     text-align: center;
@@ -20,6 +28,8 @@ h1{ color:rgb(223, 21, 21)}
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
+    transform: background-color 1s
+    color 1s;
 }
 .Fahrenheit{
     text-align: center;
@@ -31,4 +41,6 @@ h1{ color:rgb(223, 21, 21)}
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
+    transform: background-color 1s
+    color 1s;
 }
