@@ -10,13 +10,24 @@
 
     <body>
 
+        <script src="src/js/main.js"></script>
+
         <h1> Hello World</h1>
+
+        <div class="DCLR_box">
+
+        <p class="DCLR">Disclaimer</p>
+        <p class="Message">Tombol berguna sebagai penanda nama satuan suhu</p>
+        <p class="Message">Jika anda pilih tombol Celcius, maka satuan yang harus dimasukan adalah satuah suhu celcius</p>
+
+        </div>
 
         <button class="celcius"> Celcius</button>
         <button class="Kelvin"> Kelvin</button>
         <button class="Fahrenheit"> Fahrenheit</button>
-
-        <script src="src/js/main.js"></script>
+        <br/>
+        <input type="number" id="Satuan_Suhu" class="Satuan_suhu" placeholder="°C">
+        <button class="Convert" onclick="getValue()">Convert</button>
 
     </body>
 

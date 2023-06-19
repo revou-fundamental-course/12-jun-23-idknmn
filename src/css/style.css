@@ -2,58 +2,74 @@ h1{ color:rgb(223, 21, 21)}
 .celcius{
     text-align: center;
     background-color: rgb(18, 225, 246);
+    border-color: balck;
+    border-style: solid;
+    border-width: 1px;
     color: black;
-    border: none;
     height: 30px;
     width: 56px;
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
-    transform: background-color 1s
-    color 1s;
+    transition: background-color 1s;
+
 }
 .celcius:hover{
     background-color: rgb(9, 230, 255);
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .celcius:active{
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .Kelvin{
     text-align: center;
     background-color: rgb(255, 172, 28);
+    border-color: balck;
+    border-style: solid;
+    border-width: 1px;
     color: black;
-    border: none;
     height: 30px;
     width: 50px;
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
-    transform: background-color 1s
-    color 1s;
+    transition: background-color 1s;
 }
 .Kelvin:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .Kelvin:active{
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .Fahrenheit{
     text-align: center;
     background-color: rgb(85, 85, 255);
+    border-color: balck;
+    border-style: solid;
+    border-width: 1px;
     color: black;
-    border: none;
     height: 30px;
     width: 79px;
     cursor: pointer;
     border-radius: 2px;
     font-weight: bold;
-    transform: background-color 1s
-    color 1s;
+    transition: background-color 1s;
 }
 .Fahrenheit:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 .Fahrenheit:active{
-    opacity: 0.5;
+    opacity: 0.7;
+}
+
+.DCLR{
+    text-align: center;
+}
+.Message{
+    text-align: center;
+}
+.DCLR_box {
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
 }
