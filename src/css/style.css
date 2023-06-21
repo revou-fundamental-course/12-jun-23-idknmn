@@ -1,75 +1,75 @@
-h1{ color:rgb(223, 21, 21)}
-.celcius{
-    text-align: center;
-    background-color: rgb(18, 225, 246);
-    border-color: balck;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    height: 30px;
-    width: 56px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-weight: bold;
-    transition: background-color 1s;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
 
-}
-.celcius:hover{
-    background-color: rgb(9, 230, 255);
-    opacity: 0.9;
-}
-.celcius:active{
-    opacity: 0.7;
-}
-.Kelvin{
-    text-align: center;
-    background-color: rgb(255, 172, 28);
-    border-color: balck;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    height: 30px;
-    width: 50px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-weight: bold;
-    transition: background-color 1s;
-}
-.Kelvin:hover{
-    opacity: 0.9;
-}
-.Kelvin:active{
-    opacity: 0.7;
-}
-.Fahrenheit{
-    text-align: center;
-    background-color: rgb(85, 85, 255);
-    border-color: balck;
-    border-style: solid;
-    border-width: 1px;
-    color: black;
-    height: 30px;
-    width: 79px;
-    cursor: pointer;
-    border-radius: 2px;
-    font-weight: bold;
-    transition: background-color 1s;
-}
-.Fahrenheit:hover{
-    opacity: 0.9;
-}
-.Fahrenheit:active{
-    opacity: 0.7;
-}
+  p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+    width: 200px;
+    padding: 8px;
+    font-size: 14px;
+  }
 
-.DCLR{
-    text-align: center;
-}
-.Message{
-    text-align: center;
-}
-.DCLR_box {
-    border: 1px solid black;
+  select {
+    width: 200px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  #resultCelsius,
+  #resultFahrenheit,
+  #resultKelvin {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  #formulaBox {
+    background-color: #f2f2f2;
     padding: 10px;
-    width: 300px;
-}
+    margin-top: 20px;
+  }
+  
+  #formulaBox p {
+    margin-bottom: 10px;
+  }
+  
+  #formulaBox ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  
+  #formulaBox li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+  }
