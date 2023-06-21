@@ -1,16 +1,14 @@
 <html>
-    
-
     <head>
 
         <title> Kalkulator Suhu </title>
         <link rel="stylesheet" href="src/css/style.css">
-
+        <script src="src/js/main.js"></script>
     </head>
 
     <body>
 
-        <script src="src/js/main.js"></script>
+
 
         <h2>Temperature Converter</h2>
 
@@ -25,7 +23,9 @@
           <option value="kelvin">Kelvin</option>
         </select>
         
-        <button onclick="convertTemperature()">Convert</button>
+        <br/>
+
+        <button class="ConvertButton" onclick="convertTemperature()">Convert</button>
 
         <p><strong>Results:</strong></p>
         <p><span id="resultCelsius"></span></p>
@@ -43,6 +43,11 @@
               <li><strong>Kelvin to Fahrenheit:</strong> Fahrenheit = Kelvin × 9/5 - 459.67</li>
             </ul>
           </div>
+          
+          <p id="typing-text">3</p>
+          <button onclick="startTyping()">Start Typing</button>
+
+          
     </body>
 
 </html>

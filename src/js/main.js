@@ -1,7 +1,8 @@
-alert('Hello World');
-var button;
-var input;
-var Change_Name_placeholder;
+alert('Created by ');
+
+const text = "Hello, World!";
+let charIndex = 0;
+const typingSpeed = 100; // typing speed in milliseconds
 
 function convertTemperature() {
   var temperatureInput = document.getElementById("temperature");
@@ -17,7 +18,8 @@ function convertTemperature() {
     var celsius = temperature;
     var fahrenheit = (celsius * 9/5) + 32;
     var kelvin = celsius + 273.15;
-    
+
+
     resultCelsius.textContent = "Celsius: " + celsius.toFixed(2);
     resultFahrenheit.textContent = "Fahrenheit: " + fahrenheit.toFixed(2);
     resultKelvin.textContent = "Kelvin: " + kelvin.toFixed(2);
@@ -38,4 +40,18 @@ function convertTemperature() {
     resultFahrenheit.textContent = "Fahrenheit: " + fahrenheit.toFixed(2);
     resultKelvin.textContent = "Kelvin: " + kelvin.toFixed(2);
   }
+
+}
+function typeText() {
+  const element = document.getElementById("typing-text");
+  if (charIndex < text.length) {
+    element.innerHTML += text.charAt(charIndex);
+    charIndex++;
+    setTimeout(typeText, typingSpeed);
+  }
+}
+function startTyping() {
+  charIndex = 0;
+  document.getElementById("typing-text").innerHTML = "";
+  typeText();
 }
