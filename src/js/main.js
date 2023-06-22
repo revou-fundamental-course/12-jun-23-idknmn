@@ -68,4 +68,7 @@ function convertTemperature() {
       }
     }, 0);
   }
+  function fdsag(){
+    alert("dfs");
+  }
 }
