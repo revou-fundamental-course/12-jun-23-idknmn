@@ -1,0 +1,57 @@
+<html>
+    <head>
+
+        <title> Kalkulator Suhu </title>
+        <link rel="stylesheet" href="src/css/style.css">
+        <script src="src/js/main.js"></script>
+    </head>
+
+    <body>
+
+
+
+        <h2>Temperature Converter</h2>
+
+        <p>This temperature converter allows you to convert temperatures between Celsius, Fahrenheit, and Kelvin. Enter a value and select the input unit, then click the "Convert" button to see the converted values in the other two units.</p>
+        
+        <label for="temperature">Temperature:</label>
+        <input type="number" id="temperature" placeholder="Enter temperature">
+        
+        <select id="unit">
+          <option value="celsius">Celsius</option>
+          <option value="fahrenheit">Fahrenheit</option>
+          <option value="kelvin">Kelvin</option>
+        </select>
+        
+        <br/>
+
+        <button class="ConvertButton" onclick="convertTemperature()">Convert</button>
+
+        <div id="explanationBox">
+          <p><strong>Explanation:</strong></p>
+          <p><span id="Explanation_1"></span></p>
+          <p><span id="Explanation_2"></span></p>
+        </div>
+        <br>
+        <div id="resultBox">
+          <p><strong>Results:</strong></p>
+          <p><span id="resultCelsius"></span></p>
+          <p><span id="resultFahrenheit"></span></p>
+          <p><span id="resultKelvin"></span></p>
+        </div>
+        <br>
+        <div id="formulaBox">
+            <p><strong>Conversion Formulas:</strong></p>
+            <ul>
+              <li><strong>Celsius to Fahrenheit:</strong> Fahrenheit = Celsius × 9/5 + 32</li>
+              <li><strong>Celsius to Kelvin:</strong> Kelvin = Celsius + 273.15</li>
+              <li><strong>Fahrenheit to Celsius:</strong> Celsius = (Fahrenheit - 32) × 5/9</li>
+              <li><strong>Fahrenheit to Kelvin:</strong> Kelvin = (Fahrenheit + 459.67) × 5/9</li>
+              <li><strong>Kelvin to Celsius:</strong> Celsius = Kelvin - 273.15</li>
+              <li><strong>Kelvin to Fahrenheit:</strong> Fahrenheit = Kelvin × 9/5 - 459.67</li>
+            </ul>
+          </div>
+          
+    </body>
+
+</html>
